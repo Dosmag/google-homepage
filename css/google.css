@@ -1,0 +1,99 @@
+/* Fake Google CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1#logo {
+    width: 269px;
+    height: 95px;
+    background: url('images/google.png') top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 140px auto 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 7px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+input[type="submit"] {
+    background: #eee;
+    color: #333;
+    border: solid 1px #ccc;
+    padding: 5px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+nav#header {
+    padding: 20px;
+    top: 0;
+    width 100%;
+}
+
+nav#header ul li {
+    display: inline;
+    padding: 6px;
+}
+
+nav#header ul.left-links {
+    float: left;
+}
+
+nav#header ul.right-links {
+    float: right;
+}
+
+
+footer {
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer nav {
+    padding: 20px;
+}
+
+footer nav ul li {
+    display: inline;
+    padding: 6px;
+}
+
+footer nav ul {
+    float: left;
+}
+
+
+footer nav ul.right-links {
+    float: right;
+    text-align: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
